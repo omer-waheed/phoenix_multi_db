@@ -3,7 +3,10 @@
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
+  * Create 2 MySQL Databases with names as follow  `multi_dev , multi_dev_2`
+  * Create tables in `multi_dev , multi_dev_2` as named `settings , customers`
+  * `customers` table will have `id(int) AI, name(varhar(255)), user (int)`
+  * `settings` table will have `id(int) AI, cinc(varhar(255)), user (int)`
   * Install Node.js dependencies with `npm install`
   * Start Phoenix endpoint with `mix phoenix.server`
 
